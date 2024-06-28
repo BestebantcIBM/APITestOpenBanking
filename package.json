@@ -6,8 +6,9 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev":"nodemon ./src/app.js",
-    "start":"node ./src/app.js"
+    "dev": "nodemon ./src/app.js",
+    "start": "node ./src/app.js",
+    "build": "echo hello"
   },
   "author": "",
   "license": "ISC",
@@ -15,6 +16,7 @@
     "cors": "^2.8.5",
     "express": "^4.18.2",
     "helmet": "^7.1.0",
-    "morgan": "^1.10.0"
+    "morgan": "^1.10.0",
+    "vercel": "^34.2.8"
   }
 }
