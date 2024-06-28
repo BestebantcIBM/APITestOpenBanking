@@ -21,3 +21,5 @@ app.get('/openbanking/sandbox/accesscode/timezone',(req,res)=>res.json({"status"
 app.use(errorController.error404)
 
 app.listen(3000,()=>console.log('listen port 3000'))
+
+export {app};
